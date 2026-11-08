@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "e2705ee5dba7b4d6badf0dd588b60ccdb959bb35dc77115b7495fd47f2565e1b",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://openapi.addresszen.com/openapi.json"
+  ],
+  "id": "addresszen-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AddressZen MCP setup and connection checker",
+  "description": "Generate AddressZen MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "addresszen",
+  "appName": "AddressZen",
+  "providerDocs": "https://openapi.addresszen.com/openapi.json",
+  "providerWebsite": "https://addresszen.com/",
+  "authentication": {
+    "type": "api_key_query",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.addresszen.com/docs/guides/api-key",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-addresszen-mcp"
+}
