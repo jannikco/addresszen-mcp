@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-addresszen",
+      "description": "Connect AI agents to AddressZen using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-addresszen/SKILL.md": "b785780cc5f5fdd2c8427561e8bdf72fd06882b2d6bb407193d1e96a817155d8"
+  }
+}
